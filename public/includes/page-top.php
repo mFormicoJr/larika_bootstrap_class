@@ -55,7 +55,7 @@
                 <div class="collapse navbar-collapse" id="navbarMain">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home Page</a>
+                            <a class="nav-link" href="./index.php">Home Page</a>
                         </li>
 
                         <!-- MENU DROPDOWN DO CARDAPIO -->
@@ -73,19 +73,19 @@
                             <!-- Opcionalmente podemos inserir o aria-labelledby -->
                             <ul class="dropdown-menu" aria-labelledby="menuLink">
                                 <li>
-                                    <a class="dropdown-item" href="#">Hamburguer</a>
+                                    <a class="dropdown-item" href="./cardapio.php?type=hamburger">Hamburguer</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">Hot Dog</a>
+                                    <a class="dropdown-item" href="./cardapio.php?type=hot-dog">Hot Dog</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">Batatas Recheadas</a>
+                                    <a class="dropdown-item" href="./cardapio.php?type=potato">Batatas Recheadas</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">Porções</a>
+                                    <a class="dropdown-item" href="./cardapio.php?type=snack">Porções</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="#">Bebidas</a>
+                                    <a class="dropdown-item" href="./cardapio.php?type=drinks">Bebidas</a>
                                 </li>
                             </ul>
 
