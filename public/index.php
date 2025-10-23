@@ -1,17 +1,10 @@
-<?php
-require '../vendor/autoload.php';
+<!-- CABEÇALHO + BARRA DE NAVEGAÇÃO -->
+<?php include("./includes/page-top.php")?>
 
-use Application\Hello;
-?>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <link href="/css/default.css" rel="stylesheet" />
-    <title>Document</title>
-</head>
-<body>
-    <h1>PHP & Mysql</h1>
-    <p><?= Hello::message() ?></p>
-</body>
-</html>
+        <!-- CAROUSEL + SLIDER -->
+         <?php include("./includes/page-carousel.php")?>
+
+        <!-- CONTEÚDO DE DESTAQUES (CARDS E COLUNAS COM GRID) -->
+        <?php include("./includes/page-main.php")?>
+
+<?php include("./includes/page-bottom.php") ?>
