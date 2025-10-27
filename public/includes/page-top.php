@@ -16,7 +16,7 @@
             navbar-expand indica em qual breakpoint a barra de navegação deve expandir e 
             -lg define o breakpoint como large/grande telas grandes igual ou acima de 992px
         -->
-        <!-- navbar-light define o esquema de cores do texto de links para melhor visualização-->
+        <!-- navbar-light define o esquema de cores do texto de links para melhor visualização -->
         <nav class="navbar navbar-expand-lg navbar-light">
 
             <!-- container-fluid cria um container que ocupa toda a viewport (área disponível da tela) -->
@@ -33,11 +33,11 @@
                     do conteúdo que fica escondido, os itens da barra de navegação, conhecido como botão hamburguer
                 -->
                 <!-- Os atributos data-bs-toggle e data-bs-target são atributos Javascrpit do Bootstrap -->
-                <!-- O data-bs-toggle fala pro Bootstrap que esse botão deve controlar um componente que deve recolhido ou expandido, nosso menu -->
+                <!-- O data-bs-toggle fala pro Bootstrap que esse botão deve controlar um componente que deve ser recolhido ou expandido, o menu -->
                 <!-- Já o data-bs-target especifica qual elemento o botão vai controlar e por isso, o valor que definimos nele,
                     no caso #navbarMain atua como um seletor CSS que aponta pro elemento que tem o id navbarMain que está na nossa <div> itens de navegação
                 -->
-                <!-- Opcionalmente podemos utilizar o aria-controls para acessibilidade, informando ao leitor de tela que o botão controla o elemento que contém esse id -->
+                
                 <!-- O atributo aria-expanded define como está o menu, escondido ou visível (false ou true) iniciamos com false
                     e o Javascript do Bootstrap automaticamente alterna para true quando o usuário clica no botão (também é um recurso para leitores de tela)
                 -->
@@ -70,7 +70,6 @@
                             </a>
 
                             <!-- dropdown-menu define que essa lista será o menu do nosso dropdown -->
-                            <!-- Opcionalmente podemos inserir o aria-labelledby -->
                             <ul class="dropdown-menu" aria-labelledby="menuLink">
                                 <li>
                                     <a class="dropdown-item" href="./cardapio.php?type=hamburger">Hamburguer</a>
